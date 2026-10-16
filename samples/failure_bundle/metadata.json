@@ -1,0 +1,15 @@
+{
+  "stage": "download_asset",
+  "url": "https://github.com/[REDACTED]/test-automation-target/releases/tag/v99.99.99",
+  "console_log": [
+    "Error reading query stream: TypeError: Cannot read properties of undefined (reading 'mutations')\n    at pl (https://github.githubassets.com/assets/router-C_GrzmPo.js:3:66233)\n    at e (https://github.githubassets.com/assets/index-m3NvbDSM.js:4:[REDACTED])",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "resolver_attempts": "  [login_username] FOUND via role_and_name\n    + role_and_name\n  [login_password] FOUND via role_and_name\n    + role_and_name\n  [login_submit] FOUND via role_and_name\n    + role_and_name\n  [totp_input] FOUND via structure\n    - role_and_name (not found)\n    - label (not found)\n    - nearby_text (not found)\n    + structure\n  [issue_title] FOUND via role_and_name\n    + role_and_name\n  [issue_body] FOUND via role_and_name\n    + role_and_name\n  [labels_gear] FOUND via role_and_name\n    + role_and_name\n  [issue_submit] FOUND via role_and_name\n    + role_and_name"
+}

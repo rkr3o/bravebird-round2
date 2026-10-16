@@ -1,0 +1,34 @@
+{
+  "status": "failed",
+  "inputs": {
+    "repo": "rkr3o/test-automation-target",
+    "issue": {
+      "title": "Automated bug report",
+      "body": "This issue was created by the automation bot as part of a test run.",
+      "labels": [
+        "bug"
+      ]
+    },
+    "download_release": "v99.99.99"
+  },
+  "pages_visited": [
+    "https://github.com/",
+    "https://github.com/rkr3o/test-automation-target",
+    "https://github.com/rkr3o/test-automation-target/issues/new",
+    "https://github.com/rkr3o/test-automation-target/issues/10",
+    "https://github.com/rkr3o/test-automation-target/releases/tag/v99.99.99"
+  ],
+  "stage_timings": {
+    "session_check": 0.0,
+    "login": 9.85,
+    "navigate_to_repo": 1.28,
+    "create_issue": 9.27,
+    "capture_pdf": 0.12,
+    "download_asset": 9.59
+  },
+  "captured_files": [
+    "issue.pdf"
+  ],
+  "resolver_log": "  [login_username] FOUND via role_and_name\n    + role_and_name\n  [login_password] FOUND via role_and_name\n    + role_and_name\n  [login_submit] FOUND via role_and_name\n    + role_and_name\n  [totp_input] FOUND via structure\n    - role_and_name (not found)\n    - label (not found)\n    - nearby_text (not found)\n    + structure\n  [issue_title] FOUND via role_and_name\n    + role_and_name\n  [issue_body] FOUND via role_and_name\n    + role_and_name\n  [labels_gear] FOUND via role_and_name\n    + role_and_name\n  [issue_submit] FOUND via role_and_name\n    + role_and_name",
+  "error": "No assets found for release v99.99.99"
+}

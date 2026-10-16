@@ -1,0 +1,9 @@
+{
+  "repo": "rkr3o/test-automation-target",
+  "issue": {
+    "title": "Automated bug report",
+    "body": "This issue was created by the automation bot as part of a test run.",
+    "labels": ["bug"]
+  },
+  "download_release": "v1.0.0"
+}

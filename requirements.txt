@@ -1,0 +1,7 @@
+playwright
+pyotp
+python-dotenv
+beautifulsoup4
+playwright-stealth
+fastapi
+uvicorn
